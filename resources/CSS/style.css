@@ -33,12 +33,14 @@ nav span a{
   padding-right:20px;
 }
 
-/*Mission Statement*/
-
 .container{
+  margin: 50px 0px;
   display:flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction:column;
 }
+
+/*Mission Statement*/
 
 .mission{
   display:flex;
@@ -49,10 +51,90 @@ nav span a{
 }
 
 .statement{
-
   display:flex;
-  /*height: 200px; */
   width:1200px;
   background-color: black;
   flex-direction: column;
+}
+
+.statement h2, h4{
+  margin: 10px;
+}
+
+/*Featured Teas*/
+
+.featured{
+  display:flex;
+  width: 1000px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cups{
+  display:flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.teas{
+  display:flex;
+  flex-direction: column;
+}
+
+.teas img{
+  height:200px;
+  width: 300px;
+  margin: 10px;
+}
+
+/*Locations*/
+
+.locations{
+  display:flex;
+  width: 1200px;
+  height:500px;
+  background-image:url("../images/locations.jpg");
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stores{
+  display: flex;
+  width: 1200px;
+  justify-content:space-around;
+}
+
+.address{
+  height:300px;
+  width:300px;
+  background-color: black;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.address#oakdale{
+  opacity: 1;
+}
+
+/*Contact*/
+
+.contact{
+  display:flex;
+  height: 200px;
+  flex-direction:column;
+  justify-content:space-around;
+}
+
+/*Footer*/
+
+footer{
+  display:flex;
+}
+
+footer h5{
+  margin-left:20px;
 }
